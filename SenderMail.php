@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sender</title>
-</head>
-
-<body>
-    <?php
+<?php
     //get data from form  
 
     $name = $_POST['name'];
@@ -26,7 +15,4 @@
     }
     //redirect
     header("Location:Contact.html");
-    ?>
-</body>
-
-</html>
+?>
