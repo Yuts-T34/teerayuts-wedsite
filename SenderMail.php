@@ -11,7 +11,6 @@
         "CC: somebodyelse@example.com";
     if ($email != NULL) {
         mail($to, $subject, $txt, $headers);
-        echo "Sent successfully Thank you.";
     }
     //redirect
     header("Location:Contact.html");
